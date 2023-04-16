@@ -1,159 +1,22 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Day 1 Take Home</title>
+    <title>Jessica's Favorite Places</title>
   </head>
-  <body>
-    <h1>Coding Basics</h1>
-    <h2>Videos I Watched and What I Learned From Them</h2>
-    <hr />
-    <h3>HTML in 100 Seconds by Fireship</h3>
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/ok-plXXHlWw"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen
-    ></iframe>
-
-    <ul>
-      <li>html was created at CERN</li>
-      <li>
-        within html an opening and closing element is content and sometimes
-        other html elements which are called children
-      </li>
-      <li>
-        the opening tag may have one or more attributes which customize the
-        appearance or behavior of the element
-      </li>
-      <li>head and body elements are children of the html element</li>
-      <li>
-        the head element includes things that are not shown on the webpage, for
-        example the title
-      </li>
-      <li>the title is shown on the webpage's tab</li>
-      <li>meta element has no closing tag</li>
-      <li>img tag is self-closing</li>
-      <li>
-        the alt tag is the description of an img allowing accessibility for
-        screen readers and robots
-      </li>
-      <li>use the a or anchor tag for a link</li>
-      <li>the div tag is used to group elements together</li>
-    </ul>
-    <hr />
-    <h3>CSS in 100 Seconds by Fireship</h3>
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/OEV8gMkCHXQ"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen
-    ></iframe>
-    <ul>
-      <li>css stands for cascade style sheet</li>
-      <li>
-        css makes black and white html visually appealing and more interesting
-      </li>
-      <li>there will never be a css4. only updates to the current language</li>
-      <li>a selector (element) is used that is matched to a html document</li>
-      <li>
-        followed by braces to create a declaration block which include
-        properties that change the appearance of the element
-      </li>
-      <li>each is known as a css rule</li>
-      <li>multiple rules can be applied to the same element</li>
-      <li>
-        rules have a hierarchy. rules that are more specific will override the
-        rules of their parents
-      </li>
-      <li>thus, the order of your css rules matter!</li>
-      <li>only some styles will inherit the styles of their parent</li>
-      <li>
-        the browser uses cascade, specificity, and inheritance to control which
-        styles are applied to an element
-      </li>
-      <li>
-        a selector can target multiple html elements of a certain type, multiple
-        related elements with a custom class, or a single element with an id
-      </li>
-      <li>think of each html element like a box</li>
-      <li>
-        the content is in the middle followed by padding, border, and a margin
-      </li>
-      <li>use grid and flex layouts to control how the boxes flow together</li>
-      <li>css can also detect user interaction, for example, hover</li>
-      <li>
-        you can add logic to your code with variables, custom properties, and
-        media queries which can apply styles conditionally based on the size or
-        type of device
-      </li>
-      <li>
-        css can also handle complex animation with transitions and key frames
-      </li>
-    </ul>
-    <hr />
-    <h3>VS Code in 100 Seconds by Fireship</h3>
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/KMxo3T_MTvY"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen
-    ></iframe>
-
-    <ul>
-      <li>free and open source platform for editing code</li>
-      <li>
-        provides an integrated development environment to help you edit,
-        analyze, and manage your code files efficiently
-      </li>
-      <li>world's most popular code editor</li>
-      <li>
-        VS Code analyzes the symbols inside a file to perform syntax
-        highlighting
-      </li>
-      <li>it automatically detects problems in your code</li>
-      <li>For example, if a variable is nnot used, it becomes more opaque</li>
-      <li>
-        a red squiggley line appears if your code will not compile. Hover over
-        it for more detail.
-      </li>
-      <li>
-        creates an outline of a codes' structure to quickly navigate to the line
-        of code that you're looking for
-      </li>
-      <li>
-        professor coders utilize VS Code's intellisense to autocomplete the code
-      </li>
-      <li>
-        when the correct suggesting comes up press tab or enter to complete
-      </li>
-      <li>
-        you may also right-click your code to find a variety of options to
-        analyze and refactor your code
-      </li>
-      <li>ctrl + shift + P to bring up the command palette</li>
-      <li>
-        with the command palette, you can quickly access any Vs Code command or
-        any file in your project
-      </li>
-      <li>many extensions are available to provide specialized tooling</li>
-      <li>
-        the remote button (bottom left) can connect your editor to a remote
-        github repository, docker container, or cloud server
-      </li>
-      <li>
-        you can also run VSCode in the cloud to access it from the browser
-      </li>
-    </ul>
-  </body>
+  <body></body>
 </html>
