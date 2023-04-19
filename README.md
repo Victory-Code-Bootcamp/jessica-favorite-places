@@ -27,4 +27,4 @@ This is a personal project and contributions are not currently being accepted.
 
 License
 
-This project is licensed under the MIT License (hk/license.txt).
+This project is licensed under the MIT License (license.txt).
