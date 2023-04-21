@@ -6,7 +6,7 @@ This is a static HTML website that showcases my Victory Code Bootcamp Quarter 2 
 
 Deployment
 
-This website is hosted on Netlify at https://jessica-favoriteplaces.netlify.app/. It is automatically deployed from the "main" branch of this GitHub repository.
+This website is hosted on Netlify at (https://app.netlify.com/sites/jessica-myhappyplace/deploys). It is automatically deployed from the "main" branch of this GitHub repository.
 
 To deploy changes to the website, simply push commits to the "main" branch. Netlify will automatically rebuild and redeploy the site.
 
