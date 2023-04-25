@@ -10,6 +10,8 @@ This website is hosted on Netlify at (https://app.netlify.com/sites/jessica-myha
 
 To deploy changes to the website, simply push commits to the "main" branch. Netlify will automatically rebuild and redeploy the site.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b387eba3-9692-4295-a906-c40379d2f527/deploy-status)](https://app.netlify.com/sites/jessica-myhappyplace/deploys)
+
 Development
 
 To run the website locally, clone this repository and open the "home.html" file in your web browser.
